@@ -50,4 +50,25 @@ X = [you, have, taken, tree] ;
 X = [you, have, taken, car] ;
 X = [you, have, taken, cellphone] ;
 X = [you, have, done, tree] .
+
+?- present_continuous_phrase(X).
+X = [i, have, been, playing] ;
+X = [i, have, been, talking] ;
+X = [i, have, been, riding] ;
+X = [i, have, been, waking] ;
+X = [i, have, been, sitting] ;
+X = [i, have, been, yawning] ;
+X = [you, have, been, playing] ;
+X = [you, have, been, talking] ;
+X = [you, have, been, riding] ;
+X = [you, have, been, waking] ;
+X = [you, have, been, sitting] ;
+X = [you, have, been, yawning] ;
+X = [he, has, been, playing] ;
+X = [he, has, been, talking] ;
+X = [he, has, been, riding] ;
+X = [he, has, been, waking] ;
+X = [he, has, been, sitting] ;
+X = [he, has, been, yawning] ;
+X = [she, has, been, playing] .
 ```
