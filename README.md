@@ -9,7 +9,8 @@ And then, read the file to get more informations about functions.
 
 A short example:
 
-`?- infinite_verb(X).
+```
+?- infinite_verb(X).
 X = [to, play] ;
 X = [to, ride] ;
 X = [to, call] ;
@@ -48,4 +49,5 @@ X = [i, have, found, cellphone] ;
 X = [you, have, taken, tree] ;
 X = [you, have, taken, car] ;
 X = [you, have, taken, cellphone] ;
-X = [you, have, done, tree] .`
+X = [you, have, done, tree] .
+```
