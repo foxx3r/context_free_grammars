@@ -1,7 +1,7 @@
 # context_free_grammars
 That is a script about the concept context free grammars in Prolog
 
-To run that script, run into swipl:
+To run that script, run on swipl:
 
 `[context_free_grammars]`
 
