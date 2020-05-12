@@ -296,11 +296,10 @@ past_perfect_phrase(Z) :- past_perfect(X), participle(Y), append(X, Y, Z).
 
 present_continuous_phrase(Z) :- present_continuous(X), gerund(Y), append(X, Y, Z).
 
-make_distance(Z) :- distance(X), to_be(Y), append(X, Y, Z).
 absolute_possessive_phrase(Z) :- verb_to_be(X), absolute_possessive(Y), append(X, Y, Z).
-absolute_possessive_phrase(Z) :- make_distance(X), absolute_possessive(Y), append(X, Y, Z).
+absolute_possessive_phrase(Z) :- distance(X), absolute_possessive(Y), append(X, Y, Z).
 
-make_possessive_structure(Z) :- make_distance(X), possessive(Y), append(X, Y, Z).
+make_possessive_structure(Z) :- distance(X), possessive(Y), append(X, Y, Z).
 make_possessive_structure(Z) :- verb_to_be(X), possessive(Y), append(X, Y, Z).
 possessive_phrase(Z) :- make_possessive_structure(X), noun(Y), append(X, Y, Z).
 
