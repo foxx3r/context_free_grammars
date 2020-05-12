@@ -72,3 +72,5 @@ X = [he, has, been, sitting] ;
 X = [he, has, been, yawning] ;
 X = [she, has, been, playing] .
 ```
+
+Soon, I'll add more content, besides more stability and refactoring.
